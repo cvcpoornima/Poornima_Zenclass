@@ -35,10 +35,11 @@
     </style>
     </head>
     <body>
-        <div> External box</div>
+        <div> External box
         <p id="rcorners1">Edged Circle</p>
         <p id="square">Square</p>
         <p id="circle">circle</p>
+        </div>
         
         
         </body>
