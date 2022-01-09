@@ -1,0 +1,250 @@
+## HTML Task to know usage of basic tags.
+
+1. Fix the bugs in below snippet
+
+```HTML
+    <html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+```
+Solution:
+
+<html lang="en">
+   <head>
+       <title>Document
+          
+               guvi
+       </title>
+   </head>
+   <body>
+   <div>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit.
+       <div>
+           <div>
+              Guvi Geek Network
+           </div>
+       </body>
+   </html>
+ 
+
+2. Try the below one
+
+```HTML
+<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+```
+Solution:
+
+<html lang="en">
+   <head>
+       <title>Document
+          
+               guvi
+               </title>
+   </head>
+   <body>
+   <div>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit.
+       <div>
+           <div>
+               Guvi Geek Network
+           </div>
+       </body>
+   </html>
+ 
+
+---
+
+3. Design a contact us form with all fields as required.
+
+---
+<html lang="en">
+   <head>
+       <title>Contact Us
+       </title>
+   <style>
+       h1 {text-align: center;}
+   </style>
+   </head>
+   <body>
+   <div>
+       <h1> Contact Us</h1><br>
+       <form>
+           <label for="Name"> First Name</label>
+           <input type="Name" id="Name" value="Name" placeholder="Enter your Name"/> <br> <br>
+           <label for="Phone"> Phone Number</label>
+           <input type="tel" id="Phone" value="Phone" placeholder="Enter your Phone number"/><br> <br>
+           <label for="email">Email Address</label>
+           <input type="email" id="Email" value="Email" placeholder="Enter your email id"/> <br> <br>
+           <label for="Country">Select Country</label>
+<select name="Country" id="Country">
+   <option value="India">India</option>
+   <option value="Australia">Australia</option>
+   <option value="Germany">Germany</option>
+   <option value="Asia">Asia</option>
+   <option value="Africa">Africa</option>
+</select> <br> <br>
+ 
+<input type="submit"/>
+       </form>
+      
+           </div>
+       </body>
+   </html>
+
+4. Use certain HTML elements to display the following in a HTML page.
+
+
+Programming Language
+JavaScript
+Angular
+React
+Vue.js
+Python
+Django Framework
+Flask Framework
+Java
+Spring
+Maven
+Hibernate
+Database
+MySQL
+MongoDB
+Cansandra
+
+—
+<html lang="en">
+   <head>
+       <title>Bullet Sample
+       </title>
+       <style>
+  .circle
+  {
+list-style-type: circle;
+  }
+  .disc{
+list-style-type: disc;
+  }
+  .lower-alpha{
+list-style-type: lower-alpha;
+  }
+       </style>
+   </head>
+   <body>
+   <ul class="disc">
+       <li>Programming Language</li>
+   <ul class="circle">
+       <li> JavaScript</li>
+       <ul class="lower-alpha">
+           <li>Angular</li>
+           <li>React</li>
+           <li>Vue</li>
+       </ul>
+       </ul>
+   <ul class="circle">
+       <li>Python</li>
+       <ul class="lower-alpha">
+           <li>Django Framework</li>
+           <li>Flask Framework</li>
+           </ul>
+   </ul>
+   <ul class="circle">
+       <li>Java</li>
+       <ul class="lower-alpha">
+           <li>Spring</li>
+           <li>Maven</li>
+           <li>Hibernate</li>
+           </ul>
+   </ul>
+   </ul>
+   <ul class="disc">
+       <li>Database</li>
+       <ul class="circle">
+           <li>MYSQL</li>
+           <li>MongoDB</li>
+           <li>Cassandra</li>
+       </body>
+   </html>
+
+
+5. Create an element that helps you to open the https://google.com in separate new tab.
+
+—
+<html lang="en">
+   <head>
+       <title>Hyperlink Sample
+       </title>
+   </head>
+   <body>
+       <a href="https://google.com">Visit google</a>
+       </body>
+   </html>
+
+
+6. In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+—
+<html lang="en">
+   <head>
+       <title>Radiobutton Sample
+       </title>
+   </head>
+   <body>
+       <form>
+           <p>Employee Type</p><br>
+           <input type="radio" id="html" name="employee_type" value="HTML"/>
+           <label for="html">Salaried</label><br>
+           <input type="radio" id="html" name="employee_type" value="HTML"/>
+           <label for="html">Own Business</label><br>
+           <input type="Submit"/>
+       </form>
+       </body>
+   </html>
+
+
+7. Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
+
+---
+
+8. Use the table tag to design given image [Click here](https://www.bapugraphics.com/assets/img/port_upload_dir/table-4.jpg).
+
+---
+
+
+9. Write HTML input tags snippet to show default values for all Form elements.
+
+---
+
+10. In your, HTML page add the below line and Highlight it without using any CSS.
+
+- "HTML & CSS is awesome"
+
+---
+
+11. Create an HTML page, which should contain all types of input elements.
+
+
