@@ -1,0 +1,46 @@
+<html lang="en">
+    <head>
+        <title>Table Sample
+        </title>
+    <style>
+        #rcorners1 {
+  border-radius: 25px;
+  background: #ad2121;
+  padding: 10px; 
+  width: 100px;
+  height: 150px;  
+  display:inline-block;
+}
+#square {
+    background: orange;
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+}
+#circle {
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+}
+        div {
+            background-color: red;
+            width: 500px;
+            border: 15px black;
+            padding: 20px 30px;
+            margin: 50px 30px;
+            display: flex;
+          }
+    </style>
+    </head>
+    <body>
+        <div> External box</div>
+        <p id="rcorners1">Edged Circle</p>
+        <p id="square">Square</p>
+        <p id="circle">circle</p>
+        
+        
+        </body>
+    </html>
+ 
