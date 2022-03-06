@@ -33,6 +33,18 @@ const selectPokemon = listItem => {
   const pokemonIndex = Number.parseInt(listItem.innerHTML);
   let nameOfSelected = document.getElementById('name');
   const imageOfSelected = document.getElementById('selected-image');
+  
+  //Each Pokemon's ability needs to be listed.
+  const poke_abilities=pokemon.abilities.map(ability=>ability.ability.name);
+  console.log(poke_abilities[0]);
+  
+  //Display the pokemon's moves
+  const moves =pokemon.moves.map(move=>move.name);
+  console.log(moves[0]);
+  
+  //Also display the weight of each pokemon
+  const weight=pokemon.weight;
+  console.log(weight);
 
   nameOfSelected.innerHTML = listItem.innerHTML.toUpperCase();
   nameOfSelected.style.visibility = 'visible';
